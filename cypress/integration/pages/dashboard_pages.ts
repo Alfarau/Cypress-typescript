@@ -1,5 +1,8 @@
 export class DashboardPage{
+
     link_sauceLabsBackpack = 'Sauce Labs Backpack'
+    cart_sauceLabsBackpack = '#add-to-cart-sauce-labs-backpack' 
+    btn_cart = '#shopping_cart_container'
 
     sauceLabsBackpack(){
         cy.contains(this.link_sauceLabsBackpack).click()
