@@ -13,6 +13,6 @@ export class DashboardPage{
     assertCartBackpack(){
         cy.get(this.btn_cart).click()
         cy.get('#item_4_title_link').should('be.visible')
-        cy.contains('#item_4_title_link').should('contain', 'Sauce Labs Backpack')
+        cy.contains('Sauce Labs Backpack')
     }
 }
